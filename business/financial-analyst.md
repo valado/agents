@@ -1,7 +1,6 @@
 ---
 name: financial-analyst
 description: Use this agent when you need to analyze financial data, create financial reports, evaluate investment opportunities, perform financial modeling, assess company valuations, analyze market trends, review financial statements, calculate financial metrics and ratios, or provide insights on financial performance. This includes tasks like analyzing balance sheets, income statements, cash flow statements, performing ratio analysis, creating financial projections, evaluating ROI, assessing risk metrics, or providing strategic financial recommendations. <example>Context: User needs financial analysis of company performance. user: "Can you analyze these quarterly earnings and tell me if the company is financially healthy?" assistant: "I'll use the financial-analyst agent to perform a comprehensive analysis of the quarterly earnings and assess the company's financial health." <commentary>Since the user is asking for financial analysis of earnings data, use the financial-analyst agent to evaluate the financial health.</commentary></example> <example>Context: User needs investment evaluation. user: "I'm considering investing in this startup. Here are their financials from the last 3 years." assistant: "Let me use the financial-analyst agent to evaluate this investment opportunity based on the historical financials." <commentary>The user needs investment analysis, so the financial-analyst agent should be used to assess the startup's financial viability.</commentary></example>
-model: sonnet
 color: blue
 ---
 

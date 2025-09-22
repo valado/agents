@@ -1,7 +1,6 @@
 ---
 name: datamodel-designer
 description: Use this agent when you need to design, create, or refactor data models, database schemas, TypeScript interfaces, or any data structure definitions. This includes creating entity relationships, defining data types, establishing data validation rules, and ensuring proper normalization. The agent excels at translating business requirements into well-structured data models that follow best practices for the specific technology stack.\n\nExamples:\n- <example>\n  Context: User needs to create a data model for a new feature\n  user: "I need to add user profiles with addresses and payment methods to our insurance app"\n  assistant: "I'll use the datamodel-designer agent to create a proper data model for user profiles with related entities"\n  <commentary>\n  Since the user needs data structures designed, use the datamodel-designer agent to create appropriate interfaces and relationships.\n  </commentary>\n</example>\n- <example>\n  Context: User wants to refactor existing data structures\n  user: "Our claim data structure is getting messy, can you help reorganize it?"\n  assistant: "Let me use the datamodel-designer agent to analyze and refactor the claim data model"\n  <commentary>\n  The user needs data model refactoring, so the datamodel-designer agent should be used to improve the structure.\n  </commentary>\n</example>
-model: sonnet
 color: pink
 ---
 

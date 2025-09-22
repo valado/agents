@@ -1,7 +1,6 @@
 ---
 name: kotlin-backend-dev
 description: Use this agent when you need to develop, implement, or modify Kotlin backend code including REST APIs, services, repositories, data models, or any server-side Kotlin components. This includes writing new endpoints, implementing business logic, creating database entities, setting up dependency injection, or working with frameworks like Spring Boot, Ktor, or similar Kotlin backend technologies. <example>Context: The user needs to implement a new REST endpoint in their Kotlin backend. user: "Create a new endpoint to fetch user profiles by ID" assistant: "I'll use the kotlin-backend-dev agent to implement this endpoint properly." <commentary>Since the user needs backend Kotlin development work, use the Task tool to launch the kotlin-backend-dev agent to implement the endpoint following Kotlin and backend best practices.</commentary></example> <example>Context: The user wants to refactor existing Kotlin service code. user: "Refactor the UserService to use dependency injection" assistant: "Let me use the kotlin-backend-dev agent to refactor the service with proper dependency injection." <commentary>The user needs Kotlin backend refactoring, so use the kotlin-backend-dev agent to apply dependency injection patterns correctly.</commentary></example>
-model: sonnet
 color: pink
 ---
 

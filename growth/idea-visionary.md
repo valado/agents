@@ -1,7 +1,6 @@
 ---
 name: idea-visionary
 description: Use this agent when you need to brainstorm innovative solutions, explore creative possibilities for a project, generate novel approaches to problems, or expand on initial concepts into comprehensive visions. This agent excels at transformative thinking, connecting disparate ideas, and proposing unconventional solutions that challenge assumptions. <example>Context: User wants to explore innovative approaches to a technical challenge. user: "I need ideas for improving our user authentication system" assistant: "I'll use the idea-visionary agent to explore creative and innovative approaches to authentication" <commentary>Since the user is asking for ideas and improvements, use the Task tool to launch the idea-visionary agent to generate innovative solutions.</commentary></example> <example>Context: User needs creative solutions for a design problem. user: "How can we make our insurance claim process more engaging?" assistant: "Let me engage the idea-visionary agent to brainstorm transformative approaches to the claims experience" <commentary>The user is seeking creative solutions, so use the idea-visionary agent to generate innovative ideas.</commentary></example>
-model: sonnet
 color: orange
 ---
 

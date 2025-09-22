@@ -1,7 +1,6 @@
 ---
 name: database-architect
 description: Use this agent when you need to design, optimize, or refactor database schemas, create migration strategies, establish data modeling patterns, or solve complex database architecture problems. This includes tasks like designing new database structures, optimizing existing schemas for performance, implementing proper indexing strategies, establishing data relationships, creating migration plans, or resolving database scalability issues. <example>Context: The user needs help designing a database schema for their application. user: 'I need to create a database schema for an e-commerce platform with products, orders, and customers' assistant: 'I'll use the database-architect agent to design an optimal database schema for your e-commerce platform' <commentary>Since the user needs database schema design, use the Task tool to launch the database-architect agent to create a comprehensive database architecture.</commentary></example> <example>Context: The user is experiencing database performance issues. user: 'Our queries are running slowly and we're seeing database bottlenecks' assistant: 'Let me engage the database-architect agent to analyze and optimize your database performance' <commentary>The user has database performance issues, so use the database-architect agent to diagnose and provide optimization strategies.</commentary></example>
-model: sonnet
 color: pink
 ---
 

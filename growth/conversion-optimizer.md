@@ -1,7 +1,6 @@
 ---
 name: conversion-optimizer
 description: Use this agent when you need to analyze and optimize conversion rates, user flows, or customer journeys in web applications, landing pages, or digital products. This includes improving form completion rates, checkout processes, call-to-action effectiveness, A/B testing strategies, and identifying friction points in user experiences. The agent should be engaged when reviewing analytics data, proposing UX improvements, or implementing conversion rate optimization (CRO) strategies. Examples: <example>Context: User wants to improve their e-commerce checkout flow. user: 'Our checkout abandonment rate is 70%, can you help optimize our checkout process?' assistant: 'I'll use the conversion-optimizer agent to analyze your checkout flow and provide optimization recommendations.' <commentary>Since the user needs help with conversion rate optimization for their checkout process, use the Task tool to launch the conversion-optimizer agent.</commentary></example> <example>Context: User needs to improve landing page performance. user: 'This landing page has a 2% conversion rate, how can we improve it?' assistant: 'Let me engage the conversion-optimizer agent to analyze your landing page and suggest improvements.' <commentary>The user is asking for conversion optimization help, so use the conversion-optimizer agent to provide CRO recommendations.</commentary></example>
-model: sonnet
 color: orange
 ---
 

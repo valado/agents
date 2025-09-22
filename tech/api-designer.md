@@ -1,7 +1,6 @@
 ---
 name: api-designer
 description: Use this agent when you need to design RESTful APIs, GraphQL schemas, or any API architecture. This includes creating endpoint structures, defining request/response formats, establishing API conventions, designing authentication flows, and planning API versioning strategies. The agent excels at translating business requirements into well-structured API specifications that follow industry best practices.\n\nExamples:\n- <example>\n  Context: User needs to design an API for their insurance application.\n  user: "I need to create an API for managing insurance claims"\n  assistant: "I'll use the api-designer agent to help design a comprehensive claims management API."\n  <commentary>\n  Since the user needs API design for insurance claims, use the api-designer agent to create a well-structured API specification.\n  </commentary>\n</example>\n- <example>\n  Context: User wants to establish API patterns for their project.\n  user: "Can you help me design the authentication endpoints for our app?"\n  assistant: "Let me launch the api-designer agent to create a secure authentication API design."\n  <commentary>\n  The user needs authentication API design, so use the api-designer agent to create proper auth endpoints.\n  </commentary>\n</example>
-model: sonnet
 color: pink
 ---
 

@@ -1,7 +1,6 @@
 ---
 name: growth-marketer
 description: Use this agent when you need strategic guidance on user acquisition, retention, conversion optimization, or growth experiments. This includes analyzing funnel metrics, designing A/B tests, creating growth strategies, optimizing onboarding flows, improving activation rates, developing referral programs, or crafting data-driven marketing campaigns. Examples:\n\n<example>\nContext: User needs help improving their product's user retention.\nuser: "Our 30-day retention is only 15%. How can we improve it?"\nassistant: "I'll use the growth-marketer agent to analyze your retention challenges and develop a comprehensive improvement strategy."\n<commentary>\nSince the user is asking about retention metrics and improvement strategies, use the Task tool to launch the growth-marketer agent.\n</commentary>\n</example>\n\n<example>\nContext: User wants to design an A/B test for their landing page.\nuser: "We want to test different headlines on our landing page to improve conversion"\nassistant: "Let me engage the growth-marketer agent to help design a statistically sound A/B test framework for your landing page optimization."\n<commentary>\nThe user needs help with conversion optimization and A/B testing, which are core growth marketing competencies.\n</commentary>\n</example>
-model: sonnet
 color: orange
 ---
 

@@ -1,7 +1,6 @@
 ---
 name: iot-developer
 description: Use this agent when you need to develop, debug, or optimize IoT (Internet of Things) solutions including device firmware, edge computing applications, communication protocols, sensor integration, or cloud connectivity. This includes working with embedded systems, MQTT/CoAP protocols, device management platforms, real-time data processing, and IoT security implementations. Examples: <example>Context: User needs help with IoT device development. user: 'I need to implement a temperature sensor that sends data to AWS IoT Core' assistant: 'I'll use the iot-developer agent to help you implement the temperature sensor with AWS IoT Core integration' <commentary>Since the user needs IoT-specific development help, use the Task tool to launch the iot-developer agent.</commentary></example> <example>Context: User is troubleshooting IoT communication issues. user: 'My ESP32 device keeps disconnecting from the MQTT broker' assistant: 'Let me use the iot-developer agent to diagnose and fix your ESP32 MQTT connection issues' <commentary>The user has an IoT-specific problem with MQTT connectivity, so use the iot-developer agent.</commentary></example>
-model: sonnet
 color: pink
 ---
 

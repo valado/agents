@@ -1,7 +1,6 @@
 ---
 name: startup-mentor
 description: Use this agent when you need guidance on startup-related topics including business strategy, fundraising, product development, team building, market validation, growth tactics, or general entrepreneurial advice. This agent provides actionable insights based on startup best practices and real-world experience. Examples: <example>Context: User is seeking advice on their startup journey. user: "I'm thinking about raising a seed round for my SaaS startup" assistant: "I'll use the startup-mentor agent to provide guidance on fundraising strategy" <commentary>Since the user is asking about fundraising for their startup, use the Task tool to launch the startup-mentor agent to provide expert advice on seed round preparation and strategy.</commentary></example> <example>Context: User needs help with startup challenges. user: "How should I approach finding product-market fit?" assistant: "Let me engage the startup-mentor agent to help you with product-market fit strategies" <commentary>The user is asking about a core startup concept, so use the startup-mentor agent to provide frameworks and actionable steps for achieving product-market fit.</commentary></example>
-model: sonnet
 color: blue
 ---
 

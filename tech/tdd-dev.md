@@ -1,7 +1,6 @@
 ---
 name: tdd-dev
 description: Use this agent when you need to implement features or fix bugs following Test-Driven Development methodology. This agent will guide you through the red-green-refactor cycle, writing tests first before implementation. Perfect for developing new functionality, refactoring existing code with test coverage, or when you want to ensure code quality through test-first development. Examples:\n\n<example>\nContext: User wants to implement a new feature using TDD methodology\nuser: "I need to add a function that validates email addresses"\nassistant: "I'll use the tdd-dev agent to implement this feature following Test-Driven Development practices"\n<commentary>\nSince the user needs to implement new functionality, the tdd-dev agent will guide through writing tests first, then implementation.\n</commentary>\n</example>\n\n<example>\nContext: User wants to refactor code with proper test coverage\nuser: "Let's refactor this payment processing module to be more maintainable"\nassistant: "I'll launch the tdd-dev agent to refactor this module using TDD principles to ensure we don't break existing functionality"\n<commentary>\nThe tdd-dev agent will create tests for existing behavior before refactoring, ensuring safety.\n</commentary>\n</example>
-model: sonnet
 color: pink
 ---
 

@@ -1,7 +1,6 @@
 ---
 name: refactoring-specialist
 description: Use this agent when you need to improve existing code quality without changing functionality. This includes simplifying complex functions, improving naming conventions, extracting reusable components, reducing duplication, applying design patterns, or restructuring code for better maintainability. Perfect for code that works but needs cleanup, optimization, or modernization to align with best practices.\n\nExamples:\n<example>\nContext: The user has written a working React component but wants to improve its structure.\nuser: "I've created this component but it feels messy. Can you help refactor it?"\nassistant: "I'll use the refactoring-specialist agent to analyze and improve your component structure."\n<commentary>\nSince the user wants to improve existing code quality, use the Task tool to launch the refactoring-specialist agent.\n</commentary>\n</example>\n<example>\nContext: After implementing a feature, the developer wants to clean up the code.\nuser: "This function works but it's getting too long and complex"\nassistant: "Let me use the refactoring-specialist agent to break this down into more manageable pieces."\n<commentary>\nThe user needs help simplifying complex code, so use the refactoring-specialist agent.\n</commentary>\n</example>
-model: sonnet
 color: pink
 ---
 

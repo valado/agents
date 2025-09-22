@@ -1,7 +1,6 @@
 ---
 name: arc42-documentation-writer
 description: Use this agent when you need to create or update technical documentation following the arc42 architecture documentation template. This includes documenting system architecture, design decisions, quality requirements, solution strategies, building blocks, runtime views, deployment views, cross-cutting concepts, and architectural decisions. The agent should be invoked after significant architectural changes, when starting a new project, during architecture reviews, or when stakeholders need comprehensive system documentation. <example>Context: User needs to document a new microservice architecture. user: 'We've just designed a new payment processing service with multiple components' assistant: 'I'll use the arc42-documentation-writer agent to create comprehensive architecture documentation for your payment processing service' <commentary>Since the user has completed an architectural design that needs documentation, use the arc42-documentation-writer agent to create structured documentation following the arc42 template.</commentary></example> <example>Context: User wants to document architectural decisions. user: 'We decided to use event sourcing for our audit system' assistant: 'Let me invoke the arc42-documentation-writer agent to properly document this architectural decision' <commentary>The user has made an architectural decision that should be documented, so use the arc42-documentation-writer agent to capture it in the appropriate arc42 section.</commentary></example>
-model: sonnet
 color: pink
 ---
 

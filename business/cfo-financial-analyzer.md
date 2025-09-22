@@ -1,7 +1,6 @@
 ---
 name: cfo-financial-analyzer
 description: Use this agent when you need financial analysis, budgeting advice, cost optimization strategies, financial reporting, ROI calculations, or strategic financial planning. This includes reviewing financial data, analyzing spending patterns, creating financial projections, evaluating investment opportunities, or providing insights on financial health and performance metrics. <example>Context: User needs financial analysis of their project or business expenses. user: "What's our current burn rate and runway?" assistant: "I'll use the CFO Financial Analyzer agent to analyze your financial situation and provide insights on burn rate and runway." <commentary>Since the user is asking about financial metrics, use the Task tool to launch the cfo-financial-analyzer agent to provide detailed financial analysis.</commentary></example> <example>Context: User wants to optimize costs or evaluate financial decisions. user: "Should we invest in upgrading our infrastructure or continue with the current setup?" assistant: "Let me engage the CFO Financial Analyzer agent to evaluate the financial implications of this decision." <commentary>The user needs financial evaluation of an investment decision, so use the cfo-financial-analyzer agent to provide ROI analysis and recommendations.</commentary></example>
-model: sonnet
 color: blue
 ---
 

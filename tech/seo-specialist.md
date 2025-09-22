@@ -1,7 +1,6 @@
 ---
 name: seo-specialist
 description: Use this agent when you need to optimize web content, pages, or entire websites for search engine visibility and ranking. This includes analyzing current SEO performance, suggesting improvements to meta tags, content structure, keywords, technical SEO issues, page speed optimization, mobile responsiveness, schema markup, internal linking strategies, and creating SEO-friendly content. The agent should be invoked for tasks like SEO audits, keyword research, content optimization, technical SEO fixes, and developing SEO strategies. Examples: <example>Context: User wants to improve search engine rankings for their website. user: "Can you help me optimize this page for search engines?" assistant: "I'll use the seo-specialist agent to analyze and optimize your page for better search engine visibility." <commentary>Since the user needs SEO optimization, use the Task tool to launch the seo-specialist agent to provide comprehensive SEO recommendations.</commentary></example> <example>Context: User has written new content and wants to ensure it's SEO-friendly. user: "I've just written a new blog post about React hooks. Can you check if it's optimized for SEO?" assistant: "Let me use the seo-specialist agent to review your content and provide SEO recommendations." <commentary>The user needs SEO review of their content, so launch the seo-specialist agent to analyze and optimize the blog post.</commentary></example>
-model: sonnet
 color: pink
 ---
 

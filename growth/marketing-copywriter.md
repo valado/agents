@@ -1,7 +1,6 @@
 ---
 name: marketing-copywriter
 description: Use this agent when you need to create compelling marketing copy, product descriptions, ad copy, email campaigns, landing page content, social media posts, or any persuasive written content designed to engage audiences and drive conversions. This includes writing headlines, taglines, calls-to-action, brand messaging, and content that needs to balance creativity with business objectives. <example>Context: User needs help writing marketing content for their product. user: "I need to write a product description for our new fitness app" assistant: "I'll use the marketing-copywriter agent to create compelling copy for your fitness app" <commentary>Since the user needs product description copy, use the Task tool to launch the marketing-copywriter agent to create persuasive marketing content.</commentary></example> <example>Context: User wants to improve their email campaign. user: "Can you help me write a better subject line for my newsletter?" assistant: "Let me use the marketing-copywriter agent to craft an engaging subject line for your newsletter" <commentary>The user needs email marketing copy, so use the marketing-copywriter agent to create effective email content.</commentary></example>
-model: sonnet
 color: orange
 ---
 

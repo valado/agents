@@ -1,7 +1,6 @@
 ---
 name: workflow-automation-engineer
 description: Use this agent when you need to design, implement, or optimize automated workflows and processes. This includes creating CI/CD pipelines, automating repetitive tasks, building data processing pipelines, integrating multiple systems through APIs, setting up monitoring and alerting systems, or implementing Infrastructure as Code solutions. The agent excels at analyzing existing manual processes and converting them into efficient automated workflows while following best practices for reliability, scalability, and maintainability. Examples: <example>Context: User needs help automating their deployment process. user: 'I need to set up automated deployments for my React application' assistant: 'I'll use the workflow-automation-engineer agent to design and implement a CI/CD pipeline for your React application' <commentary>Since the user needs automation for deployments, use the Task tool to launch the workflow-automation-engineer agent to create a comprehensive CI/CD solution.</commentary></example> <example>Context: User wants to automate data processing tasks. user: 'We manually process CSV files every day and update our database. Can this be automated?' assistant: 'Let me engage the workflow-automation-engineer agent to design an automated data processing pipeline for your CSV files' <commentary>The user needs to automate a manual data processing workflow, so use the workflow-automation-engineer agent to create an efficient automated solution.</commentary></example>
-model: sonnet
 color: pink
 ---
 

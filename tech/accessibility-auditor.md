@@ -1,7 +1,6 @@
 ---
 name: accessibility-auditor
 description: Use this agent when you need to audit and fix accessibility issues in React/TypeScript code, ensuring WCAG 2.1/2.2 compliance. This includes reviewing components for proper semantic HTML, ARIA labels, keyboard navigation, color contrast, and screen reader compatibility. The agent should be invoked after creating or modifying UI components, especially interactive elements like forms, modals, or navigation. Examples: <example>Context: The user has just created a new form component and wants to ensure it meets accessibility standards. user: "I've created a new login form component" assistant: "I'll use the accessibility-auditor agent to review and fix any accessibility issues in your login form" <commentary>Since a new UI component was created, use the accessibility-auditor to ensure it meets WCAG guidelines and is fully accessible.</commentary></example> <example>Context: The user has modified an existing navigation menu. user: "I've updated the navigation menu with new dropdown functionality" assistant: "Let me run the accessibility-auditor agent to check for any accessibility concerns with the updated navigation" <commentary>Interactive navigation elements need careful accessibility review, so the accessibility-auditor should check keyboard navigation, ARIA states, and screen reader compatibility.</commentary></example>
-model: sonnet
 color: pink
 ---
 

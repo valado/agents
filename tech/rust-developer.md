@@ -1,7 +1,6 @@
 ---
 name: rust-developer
 description: Use this agent when you need to write, refactor, or optimize Rust code. This includes implementing new features, creating structs and traits, writing safe and unsafe code, handling error management with Result types, implementing iterators, working with ownership and borrowing, writing macros, optimizing performance, or integrating with external crates. The agent excels at following Rust idioms and best practices while ensuring memory safety and performance.\n\nExamples:\n<example>\nContext: User needs a Rust implementation of a data structure.\nuser: "Create a thread-safe cache implementation in Rust"\nassistant: "I'll use the rust-developer agent to create a proper thread-safe cache implementation following Rust best practices."\n<commentary>\nSince the user needs Rust code for a thread-safe data structure, use the rust-developer agent to ensure proper use of Arc, Mutex, and other concurrency primitives.\n</commentary>\n</example>\n<example>\nContext: User has written Rust code that needs review and improvement.\nuser: "I've implemented a parser but I'm getting lifetime errors"\nassistant: "Let me use the rust-developer agent to help resolve those lifetime issues and improve your parser implementation."\n<commentary>\nLifetime issues are a common Rust challenge that requires deep understanding of the borrow checker, making this perfect for the rust-developer agent.\n</commentary>\n</example>
-model: sonnet
 color: pink
 ---
 

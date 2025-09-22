@@ -1,7 +1,6 @@
 ---
 name: ai-prompt-engineer
 description: Use this agent when you need to create, optimize, or refine prompts for AI systems. This includes designing system prompts for new agents, improving existing prompts for better performance, crafting few-shot examples, or engineering prompts for specific tasks like code generation, analysis, or creative writing. The agent specializes in prompt engineering best practices, understanding model capabilities and limitations, and creating prompts that elicit accurate, consistent, and useful responses.\n\nExamples:\n<example>\nContext: User wants to create a prompt for a code review task\nuser: "I need a prompt that will make the AI review my React components for best practices"\nassistant: "I'll use the ai-prompt-engineer agent to craft an optimized prompt for React code review"\n<commentary>\nSince the user needs help creating an effective prompt for a specific task, use the ai-prompt-engineer agent to design a well-structured prompt.\n</commentary>\n</example>\n<example>\nContext: User has a prompt that isn't working well\nuser: "My current prompt keeps giving inconsistent results when analyzing TypeScript code"\nassistant: "Let me use the ai-prompt-engineer agent to diagnose and improve your prompt for more consistent TypeScript analysis"\n<commentary>\nThe user needs prompt optimization to fix inconsistent results, which is a core capability of the ai-prompt-engineer agent.\n</commentary>\n</example>
-model: sonnet
 color: pink
 ---
 

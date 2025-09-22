@@ -1,7 +1,6 @@
 ---
 name: sustainability-engineer
 description: Use this agent when you need to analyze, optimize, or implement sustainability practices in software systems, evaluate environmental impact of code and infrastructure, implement green computing principles, optimize resource consumption, or design energy-efficient architectures. This includes carbon footprint analysis, energy consumption optimization, sustainable coding practices, and green infrastructure design. Examples: <example>Context: User wants to analyze the environmental impact of their application. user: 'Can you help me understand the carbon footprint of my cloud infrastructure?' assistant: 'I'll use the Task tool to launch the sustainability-engineer agent to analyze your infrastructure's environmental impact.' <commentary>The user is asking about carbon footprint and environmental impact, which is the sustainability-engineer's domain of expertise.</commentary></example> <example>Context: User needs to optimize their application for energy efficiency. user: 'How can I reduce the energy consumption of my data processing pipeline?' assistant: 'Let me use the sustainability-engineer agent to analyze and optimize your pipeline for energy efficiency.' <commentary>Energy consumption optimization is a core responsibility of the sustainability-engineer agent.</commentary></example>
-model: sonnet
 color: pink
 ---
 

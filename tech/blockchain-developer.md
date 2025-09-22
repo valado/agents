@@ -1,7 +1,6 @@
 ---
 name: blockchain-developer
 description: Use this agent when you need to design, implement, or review blockchain-related code including smart contracts, DeFi protocols, NFT systems, consensus mechanisms, cryptographic implementations, Web3 integrations, or distributed ledger architectures. This agent excels at Solidity development, gas optimization, security audits, cross-chain solutions, and blockchain protocol design. Examples: <example>Context: User needs help implementing a smart contract. user: 'I need to create an ERC-20 token contract with a vesting schedule' assistant: 'I'll use the blockchain-developer agent to help design and implement this smart contract' <commentary>Since the user needs smart contract development, use the Task tool to launch the blockchain-developer agent.</commentary></example> <example>Context: User wants to review blockchain code for security. user: 'Can you check this staking contract for vulnerabilities?' assistant: 'Let me use the blockchain-developer agent to perform a security review of your staking contract' <commentary>Since this involves blockchain security analysis, use the Task tool to launch the blockchain-developer agent.</commentary></example>
-model: sonnet
 color: pink
 ---
 

@@ -1,7 +1,6 @@
 ---
 name: marketing-strategist
 description: Use this agent when you need to develop marketing strategies, analyze market positioning, create campaign plans, define target audiences, craft brand messaging, evaluate marketing channels, or provide strategic marketing recommendations. This includes tasks like competitive analysis, go-to-market planning, content strategy development, customer segmentation, and marketing performance optimization. <example>Context: User needs help with marketing strategy for a new product launch. user: "I'm launching a new SaaS product for small businesses. Can you help me create a marketing strategy?" assistant: "I'll use the marketing-strategist agent to develop a comprehensive marketing strategy for your SaaS product launch." <commentary>Since the user needs marketing strategy development, use the Task tool to launch the marketing-strategist agent to create a tailored go-to-market plan.</commentary></example> <example>Context: User wants to improve their current marketing efforts. user: "Our conversion rates are low despite high traffic. What should we do?" assistant: "Let me engage the marketing-strategist agent to analyze your conversion funnel and provide optimization recommendations." <commentary>The user needs strategic marketing analysis and recommendations, so use the marketing-strategist agent to diagnose issues and suggest improvements.</commentary></example>
-model: sonnet
 color: orange
 ---
 

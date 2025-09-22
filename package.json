@@ -1,0 +1,40 @@
+{
+  "name": "pantheon-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that delivers AI agent descriptions on demand",
+  "main": "dist/index.js",
+  "bin": {
+    "pantheon-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && cp -r agents dist/",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "gray-matter": "^4.0.3",
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "files": [
+    "dist/**/*",
+    "business/**/*",
+    "growth/**/*",
+    "product/**/*",
+    "tech/**/*"
+  ]
+}

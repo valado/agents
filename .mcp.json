@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "pantheon-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "pantheon-mcp"],
+      "env": {}
+    }
+  }
+}

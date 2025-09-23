@@ -1,6 +1,10 @@
 {
   "name": "pantheon-mcp",
-  "version": "1.0.2",
+  "repository": {
+    "url": "https://github.com/valado/pantheon-mcp"
+  },
+  "homepage": "https://pantheon-mcp.com",
+  "version": "1.0.3",
   "description": "MCP server that delivers AI agent descriptions on demand",
   "main": "dist/index.js",
   "bin": {
@@ -19,7 +23,7 @@
     "ai-agents",
     "typescript"
   ],
-  "author": "",
+  "author": "VD",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",

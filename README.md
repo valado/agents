@@ -4,25 +4,13 @@ A collection of AI agents for various tasks.
 
 ## Getting Started 🚀
 
-Welcome to the agents repository! This project contains various AI agent definitions for Claude Code. The definitions can be reused by any other agentic system that supports markdown.
+Welcome to the agents repository! This project contains various AI agent definitions. The definitions can be used by any agentic system that supports markdown.
 
 # Pantheon MCP Server for Agents
 
-An MCP (Model Context Protocol) server that delivers AI agent descriptions on demand from this repository's collection of 42+ specialized agents.
+[Homepage](https://pantheon-mcp.com)
 
-## Usage
-
-Run the server directly with npx:
-
-```bash
-npx . --help
-```
-
-Start the MCP server:
-
-```bash
-npx .
-```
+An MCP (Model Context Protocol) server that delivers AI agent instructions on demand from this repository's collection of 42+ specialized agents.
 
 ## Available Tools
 

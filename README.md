@@ -56,7 +56,7 @@ Get detailed information about a specific agent by name.
 
 ### `search_agents`
 
-Search agents by keywords in name, description, or content.
+Search agents by keywords in name, description, or instructions.
 
 ```json
 {

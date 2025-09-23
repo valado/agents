@@ -6,13 +6,13 @@ import {
   ListToolsRequestSchema,
   McpError,
 } from "@modelcontextprotocol/sdk/types.js";
-import { AgentParser } from "./agent-parser.js";
+import { AgentDB } from "./agent-db.js";
 import { AgentCategory } from "./types.js";
 import { name, version } from "../package.json";
 
 export class PantheonMCPServer {
   private server: Server;
-  private parser: AgentParser;
+  private agentDB: AgentDB;
 
   constructor() {
     this.server = new Server(
@@ -27,7 +27,7 @@ export class PantheonMCPServer {
       }
     );
 
-    this.parser = new AgentParser();
+    this.agentDB = new AgentDB();
     this.setupHandlers();
   }
 
@@ -93,8 +93,8 @@ export class PantheonMCPServer {
           case "list_agents": {
             const category = args?.category as AgentCategory | undefined;
             const agents = category
-              ? await this.parser.getAgentsByCategory(category)
-              : await this.parser.getAllAgents();
+              ? await this.agentDB.getAgentsByCategory(category)
+              : await this.agentDB.getAllAgents();
 
             return {
               content: [
@@ -103,7 +103,7 @@ export class PantheonMCPServer {
                   text: JSON.stringify(
                     {
                       agents: agents.map((agent) => ({
-                        name: agent.metadata.name,
+                        name: agent.name,
                         category: agent.category,
                       })),
                       total: agents.length,
@@ -126,7 +126,7 @@ export class PantheonMCPServer {
               );
             }
 
-            const agent = await this.parser.getAgentByName(name);
+            const agent = await this.agentDB.getAgentByName(name);
             if (!agent) {
               throw new McpError(
                 ErrorCode.InvalidParams,
@@ -140,11 +140,11 @@ export class PantheonMCPServer {
                   type: "text",
                   text: JSON.stringify(
                     {
-                      name: agent.metadata.name,
-                      description: agent.metadata.description,
+                      name: agent.name,
+                      description: agent.description,
                       category: agent.category,
-                      color: agent.metadata.color,
-                      content: agent.content,
+                      color: agent.color,
+                      instructions: agent.instructions,
                     },
                     null,
                     2
@@ -165,7 +165,7 @@ export class PantheonMCPServer {
               );
             }
 
-            const agents = await this.parser.searchAgents({
+            const agents = await this.agentDB.searchAgents({
               keywords,
               category,
             });
@@ -177,7 +177,7 @@ export class PantheonMCPServer {
                   text: JSON.stringify(
                     {
                       agents: agents.map((agent) => ({
-                        name: agent.metadata.name,
+                        name: agent.name,
                         category: agent.category,
                       })),
                       total: agents.length,

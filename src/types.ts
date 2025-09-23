@@ -1,14 +1,9 @@
-export interface AgentMetadata {
-  name: string;
-  description: string;
-  color?: string;
-}
-
 export interface Agent {
-  metadata: AgentMetadata;
-  content: string;
+  name: string;
   category: AgentCategory;
-  filepath: string;
+  color?: string;
+  description: string;
+  instructions: string;
 }
 
 export type AgentCategory = string;
@@ -22,9 +17,4 @@ export interface ListAgentsResult {
   agents: Agent[];
   total: number;
   categories: AgentCategory[];
-}
-
-export interface ServerOptions {
-  port?: number;
-  host?: string;
 }

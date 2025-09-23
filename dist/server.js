@@ -87,9 +87,7 @@ class PantheonMCPServer {
                                     text: JSON.stringify({
                                         agents: agents.map((agent) => ({
                                             name: agent.metadata.name,
-                                            description: agent.metadata.description,
                                             category: agent.category,
-                                            color: agent.metadata.color,
                                         })),
                                         total: agents.length,
                                         category: category || "all",
@@ -139,9 +137,7 @@ class PantheonMCPServer {
                                     text: JSON.stringify({
                                         agents: agents.map((agent) => ({
                                             name: agent.metadata.name,
-                                            description: agent.metadata.description,
                                             category: agent.category,
-                                            color: agent.metadata.color,
                                         })),
                                         total: agents.length,
                                         searchTerms: { keywords, category },

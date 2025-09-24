@@ -6,7 +6,9 @@ A collection of AI agents for various tasks.
 
 Welcome to the agents repository! This project contains various AI agent definitions. The definitions can be used by any agentic system that supports markdown.
 
-# Pantheon MCP Server for Agents
+# Pantheon-MCP Server for Agents
+
+![Pantheon-MCP logo](assets/pantheon-mcp_192×192.png)
 
 [Homepage](https://pantheon-mcp.com)
 

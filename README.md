@@ -14,6 +14,19 @@ Welcome to the agents repository! This project contains various AI agent definit
 
 An MCP (Model Context Protocol) server that delivers AI agent instructions on demand from this repository's collection of 42+ specialized agents.
 
+```json
+{
+  "mcpServers": {
+    "pantheon-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "pantheon-mcp"],
+      "env": {}
+    }
+  }
+}
+```
+
 ## Available Tools
 
 The server exposes 3 MCP tools:
